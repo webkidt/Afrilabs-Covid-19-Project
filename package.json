@@ -1,5 +1,5 @@
 {
-  "name": "ate-covid-19",
+  "name": "afrilabs-covid-19",
   "version": "1.0.0",
   "description": "A web app from The African Tech Ecosystem for tracking COVID-19 updates.",
   "main": "app.js",
