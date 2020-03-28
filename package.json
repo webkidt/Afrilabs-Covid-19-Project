@@ -1,0 +1,24 @@
+{
+  "name": "ate-covid-19",
+  "version": "1.0.0",
+  "description": "A web app from The African Tech Ecosystem for tracking COVID-19 updates.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "author": "The African Tech Ecosystem",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "node-fetch": "^2.6.0",
+    "redis": "^3.0.2"
+  }
+}

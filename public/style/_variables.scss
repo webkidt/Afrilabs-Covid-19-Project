@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed&display=swap');
+$primary: #fff;
+//$secondary:#92e8ff;
+$secondary:#4dd7fd;
+$light:  rgb(240, 234, 234);
+$dark: #000;
+$bgPrimary : $primary;
+$bdlight: 1px solid $primary;
+$bdheavy: 3px solid $primary;
+$bdlightSec: 1px solid $secondary;
+$bdheavySec: 3px solid $secondary;
+$bd1: 1px solid $primary;
+$pdTop: 10px 20px;
+$displayFlex: flex;
+$flexColumn: column;
+$center: center;
+$fontRoboto: 'Roboto', sans-serif;
+$fontVarela: 'Cabin Condensed', sans-serif;
