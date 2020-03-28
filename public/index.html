@@ -7,15 +7,19 @@
     <meta name="description" content="The African Tech Ecosystem Response to the COVID-19 pandemic powered by the Afrilabs Community.">
     <!--Stylesheets-->
     <link rel="stylesheet" href="styles/stylesheet.min.css">
+
     <title>The African Tech Ecosystem Response to the COVID-19 pandemic | Afrilabs</title>
 </head>
 <body>
     <!--Header-->
     <div class="header">
-        <h1>The African Tech Ecosystem Response to the COVID-19 pandemic</h1>
-        <h3>Powered by the AfriLabs Community</h3>
+        <div class="logo">
+            <img src="assets/afrilabs-logo-1.png">
+        </div>
+        <div>The African Tech Ecosystem Response to the COVID-19 pandemic</div>
     </div>
     <!--End-->
+
     <!--Wrapper-->
     <div class="wrapper">
         <div class="row">
@@ -330,9 +334,16 @@
 
                 <!--Twitter Feed-->
                 <div class="twitter" id="smallScreen">
-                    <h3 class="infoTitle" onclick="displayFeedSmall()">Recent Tweets from @afrilabs</h3>
-                    <div id="twitter-feedMobile" class="hidden">
+                    <div id="twitter-feedMobile">
                         <a class="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/AfriLabs?ref_src=twsrc%5Etfw">Tweets by AfriLabs</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+                <!--End of Feed-->
+                 <!--Twitter Feed-->
+                 <div class="twitter" id="largeScreen">
+                    <div id="twitter-feed">
+                        <a class="twitter-timeline"  data-width="400" data-height="400" data-theme="light" href="https://twitter.com/AfriLabs?ref_src=twsrc%5Etfw">Tweets by AfriLabs</a>
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
@@ -344,8 +355,9 @@
                 <!--Mapping Exercise-->
                 <div  class="dropdownCard">
                     <h3 class="infoTitle" onclick="displayCardBody()">Mapping COVID-19 Innovation Responses</h3>
-                    <p class="cardBody hidden" id="mapping">As we try to contain the COVID-19 pandemic globally and regionally, AfriLabs COVID-19 Impact Response Community is currently mapping innovative solutions that are helping lives and businesses across the African continent.
-                        This is to promote collaboration and attract support for these relevant ideas. If you have built one or know any, please let us know <a href="https://t.co/0C9RY2ZrQp" target="_blank" class="btn">here</a>.
+                    <p class="cardBody" id="mapping">As we try to contain the COVID-19 pandemic globally and regionally, AfriLabs COVID-19 Impact Response Community is currently mapping innovative solutions that are helping lives and businesses across the African continent.
+                        This is to promote collaboration and attract support for these relevant ideas.
+                        If you have built one or know any, please let us know.<br> <a href="https://t.co/0C9RY2ZrQp" target="_blank" class="btn">Click here</a>.
                     </p>
                 </div>
                 <!--Responses-->
@@ -578,15 +590,7 @@
                 </div>
                 <!--End of webinars-->
 
-                <!--Twitter Feed-->
-                <div class="twitter" id="largeScreen">
-                    <h3 class="infoTitle" onclick="displayFeed()">Recent Tweets from @afrilabs</h3>
-                    <div id="twitter-feed" class="hidden">
-                        <a class="twitter-timeline"  data-width="400" data-height="400" data-theme="light" href="https://twitter.com/AfriLabs?ref_src=twsrc%5Etfw">Tweets by AfriLabs</a>
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
-                </div>
-                <!--End of Feed-->
+
             </div>
             <!--End of column two-->
         </div>
