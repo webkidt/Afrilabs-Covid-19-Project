@@ -11,7 +11,7 @@ fetch('/africa')
     deathsRecorded.innerHTML = `${result.total_deaths || 79}<span>Deaths recorded</span>`;
     countriesAffected.innerHTML = `${result.countries_number || 50}<span>Countries affected</span>`;
   })
-  .catch(err => {
+  .catch(error => {
     casesRecorded.innerHTML = `3100<span>Cases recorded</span>`;
     recoveriesRecorded.innerHTML = `171<span>Recoveries</span>`;
     deathsRecorded.innerHTML = `79<span>Deaths recorded</span>`;
